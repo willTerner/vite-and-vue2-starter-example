@@ -37,32 +37,33 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped lang="less">
   #app{
     height:100%;
     display:flex;
     flex-direction:column;
-  }
-  #nav{
-    background-color:#555;
-  }
-  .my-button{
-    padding:0.6rem;
-    display:inline-block;
-    float:left;
-    color:white;
-    cursor:pointer;
-    width:6rem;
-    height:3.3rem;
-    line-height:3.3rem;
-    text-align:center;
-  }
-  .my-button:hover{
-    background-color:#444;
-  }
-  #main{
-    border:thin solid black;
-    flex:auto;
-    box-sizing:border-box;
+    #nav{
+      background-color:#555;
+      .my-button{
+        padding:0.6rem;
+        display:inline-block;
+        float:left;
+        color:white;
+        cursor:pointer;
+        width:6rem;
+        height:3.3rem;
+        line-height:3.3rem;
+        text-align:center;
+        &:hover{
+          background-color:#444;
+        }
+      }
+
+    }
+    #main{
+      border:thin solid black;
+      flex:auto;
+      box-sizing:border-box;
+    }
   }
 </style>

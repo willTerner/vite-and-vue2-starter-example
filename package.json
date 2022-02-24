@@ -11,6 +11,8 @@
     "vite": "^2.8.0"
   },
   "dependencies": {
+    "less": "^4.1.2",
+    "less-loader": "^10.2.0",
     "vite-plugin-vue2": "^1.9.3",
     "vue": "^2.6.14"
   }
